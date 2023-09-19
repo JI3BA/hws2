@@ -1,3 +1,16 @@
 .loader {
     /*свг и/или анимация*/
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px dashed #004D99;
+    animation: loader 2s infinite alternate;
+}
+
+@keyframes loader {
+    from{
+        transform: rotate(0deg) scale(1);
+    }to{
+         transform: rotate(360deg) scale(1.2);
+     }
 }
